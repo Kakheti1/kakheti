@@ -1,5 +1,5 @@
 ---
-img: /assets/foundersImg/Shorena.jpg
+img: /assets/images/Shorena.jpg
 name: Shorena
 surename: Chapurishvili
 position: Finance Manager

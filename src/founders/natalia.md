@@ -1,5 +1,5 @@
 ---
-img: /assets/foundersImg/Natalia.jpg
+img: /assets/images/Natalia.jpg
 name: Natalia
 surename: Dakishvili
 position: Director
