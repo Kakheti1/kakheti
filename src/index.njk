@@ -1,0 +1,51 @@
+---
+title: მთავარი
+layout: 'base.njk'
+---
+      
+<section class="hero">
+  <div class="container flow">
+      <div class="hero__content flow">
+        <h1 class="section-title">NGO Kakheti</h1>
+        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
+        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        <div class="flex-group">
+          <a href="#featured-articles" class="btn btn--primary">გამორჩეული პოსტები</a>
+          <a href="./blog" class="btn btn--neutral">სიახლეები</a>
+        </div>
+      </div>
+      <div>
+        <img src="//unsplash.it/510" alt="" class="hero__image">
+      </div>
+  </div>
+</section>
+
+<section class="founders container">
+  <h2 class="founders-title">ჩვენი გუნდი</h2>
+  <div class="founders-grid">
+    {%- for founder in collections.founders -%}
+    <div class="founder-card">
+      <img src="{{ founder.data.img }}" alt="{{ founder.data.name }} {{ founder.data.surename }}" class="founder-photo">
+      <h3 class="founder-name">{{ founder.data.name }} {{ founder.data.surename }}</h3>
+      <p class="founder-role">{{ founder.data.position }}</p>
+    </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+
+<section id="featured-articles" class="featured-articles">
+  <div class="container flow">
+    <h2 class="section-title text-center ">გაეცანით სიახლეებს ჩვენს შესახებ</h2>
+    
+    <ul role="list" class="articles__list flow">
+
+      {%- for post in collections.featured | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor -%}
+    
+    </ul>
+        
+  </div>
+</section> 
+

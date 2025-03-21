@@ -1,0 +1,24 @@
+---
+title: კონტაქტი
+layout: 'base.njk'
+---
+
+<section class="contact-section">
+    <div class="contact-box">
+        <h2 class="contact-title">კონტაქტი</h2>
+        <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i> ახმეტა, საქართველო</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+995599371861">+995 599 371 861</a></p>
+            <p><i class="fas fa-envelope"></i> 
+                <a href="mailto:info@ngokakheti.org.ge">info@ngokakheti.org.ge</a> / 
+                <a href="mailto:kakheti09@gmail.com">kakheti09@gmail.com</a>
+            </p>
+        </div>
+        <form class="contact-form-box" action="/submit-form" method="POST">
+            <input type="text" name="name" class="contact-input" placeholder="თქვენი სახელი" required>
+            <input type="email" name="email" class="contact-input" placeholder="თქვენი ელ.ფოსტა" required>
+            <textarea name="message" class="contact-textarea" placeholder="თქვენი შეტყობინება" required></textarea>
+            <button type="submit" class="contact-button">გაგზავნა</button>
+        </form>
+    </div>
+</section>
