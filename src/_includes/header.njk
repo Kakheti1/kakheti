@@ -2,25 +2,28 @@
   <div class="container">
     <div class="page-header__content">
       <div>
-        <img src="{{ '/assets/images/ngoLogo.png' | url }}" alt="logo" class="logo">
+        <a href="/"><img src="{{ '/assets/images/ngoLogo.png' | url }}" alt="logo" class="logo"></a>
       </div>
-      <nav>
-        
+
+      <!-- Navigation -->
+      <nav class="nav-wrapper">
         <ul role="list" class="nav-list flex-group">
-          <li>
-            <a href="/">მთავარი</a>
-          </li>
-          <li>
-            <a href="/blog/">სიახლეები</a>
-          </li>
-          <li>
-            <a href="/aboutUs/">ჩვენს შესახებ</a>
-          </li>
-          <li>
-            <a href="/contact/">კონტაქტი</a>
-          </li>
+          <li><a href="/">მთავარი</a></li>
+          <li><a href="/blog/">სიახლეები</a></li>
+          <li><a href="/aboutUs/">ჩვენს შესახებ</a></li>
+          <li><a href="/contact/">კონტაქტი</a></li>
         </ul>
       </nav>
+
+      <!-- Burger Menu -->
+      <div class="burger-menu" id="burger-menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+
+      <div class="menu-overlay" id="menu-overlay"></div>
+
     </div>
   </div>
 </header>

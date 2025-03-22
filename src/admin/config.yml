@@ -12,9 +12,8 @@ collections:
     fields:
       - { label: "სათაური", name: "title", widget: "string" }
       - { label: "აღწერა", name: "description", widget: "string" }
-      - { label: "ავტორი", name: "author", widget: "string" }
       - { label: "გამოქვეყნების თარიღი", name: "date", widget: "datetime" }
-      - { label: "თეგები", name: "tags", widget: "list", default: ["post"] }
+      - { label: "თეგები", name: "tags", widget: "list", default: ["post", "featured"] }
       - { label: "სურათი", name: "image", widget: "image" }
       - { label: "სურათის სახელწოდება", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
