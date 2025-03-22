@@ -28,5 +28,7 @@ collections:
       - { name: "name", label: "სახელი", widget: "string" }
       - { name: "surename", label: "გვარი", widget: "string" }
       - { name: "position", label: "პოზიცია", widget: "string" }
+      - { label: "თეგები", name: "tags", widget: "list", default: ["founders"] }
       - { name: "image", label: "სურათი", widget: "image" }
+      
 
