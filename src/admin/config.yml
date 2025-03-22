@@ -29,6 +29,6 @@ collections:
       - { name: "surename", label: "გვარი", widget: "string" }
       - { name: "position", label: "პოზიცია", widget: "string" }
       - { label: "თეგები", name: "tags", widget: "list", default: ["founders"] }
-      - { name: "image", label: "სურათი", widget: "image" }
+      - { name: "img", label: "სურათი", widget: "image" }
       
 
