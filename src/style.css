@@ -542,7 +542,8 @@ section,
     font-size: 1.25rem;
     margin-bottom: 30px;
     line-height: 1.6;
-    width: 300px;
+    display: inline-block;
+    min-width: max-content;
   }
   
   .flex-group {
