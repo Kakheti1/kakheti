@@ -529,6 +529,7 @@ section,
     margin-right: 40px;
     display: flex;
     gap: 10px;
+    flex-direction: column;
   }
   
   .hero__content h1 {
