@@ -527,6 +527,8 @@ section,
     max-width: 600px;
     color: #fff;
     margin-right: 40px;
+    display: flex;
+    gap: 10px;
   }
   
   .hero__content h1 {
@@ -542,8 +544,8 @@ section,
     font-size: 1.25rem;
     margin-bottom: 30px;
     line-height: 1.6;
-    display: inline-block;
-    min-width: max-content;
+    flex: 1;
+    min-width: 500px;
   }
   
   .flex-group {
